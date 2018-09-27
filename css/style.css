@@ -1,0 +1,219 @@
+.nav-link {
+	padding: 5px;
+	border: 2px dotted #1B6EC5;
+	margin: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 100%;
+	box-shadow: 5px 2px 2px grey;
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+
+}
+
+#intro {
+    background: url("../img/himmer/groomingbg.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.red-color {
+	color: red;
+}
+
+.nav-link:hover {
+	background-color: #b8b890;
+	color: red;
+}
+
+.new-self {
+	font: 25px Bold;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.each-heading {
+	text-align: center;
+	font: 35px Bold;
+	font-family: 'Anton', sans-serif;
+}
+
+.bgcol1 {
+	color: red;
+}
+
+.bord1 {
+	border-left: 0px solid black;
+	border-right: 0px solid black;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+	/*margin-right: -2px;
+	margin-left: -9px;*/
+}
+
+.bolder1 {
+	border: 6px solid grey;
+}
+
+.attack-mention {
+	font: 30px Bold;
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+
+.defn {
+	font: 20px Bold;
+	font-family: 'Fredoka One', cursive;
+}
+
+.horiz1 {
+	width: 40%;
+}
+
+.font1 {
+	font: 60px Bold;
+	font-family: 'Abril Fatface', cursive;
+}
+
+li {
+	font: 25px Bold;
+}
+
+.backtotp {
+	font: 30px Bold;
+	font-family: 'Arvo', cursive;
+	text-align: center;
+	background-color: green;
+	padding-bottom: 30px;
+}
+
+.sublin {
+	color: yellow;
+}
+
+.sublin:active {
+	color: red;
+}
+
+.smallhead {
+	background-color: lightgrey;
+	color: black;
+	font: 50px Bold Arial Black, Verdana, Serif;
+}
+
+.bolder2 {
+	font: 30px Bold;
+	color: pink;
+}
+
+.high3 {
+	color: black;
+	width: 100%;
+	height: 10px;
+	background-color: black;
+}
+
+.reddie {
+	font: 20px Bold;
+	background: #8E2DE2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+strong {
+	color: #EC8E15;
+	font: 30px Bold;
+}
+
+.lefter1 {
+	text-align: left;
+}
+
+.increasefontsize {
+	font: 20px Bold;
+}
+
+.coverme {
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: 4px solid black;
+}
+
+.reddiecross {
+	color: white;
+	font: 40px Bold;
+	font-family: 'Chicle', cursive;
+	background-color: red;
+	padding-left: -10px;
+}
+
+.teammention {
+	font: 20px Bold;
+	text-decoration: underline;
+}
+
+b {
+	font: 25px Bold;
+}
+
+meter {
+	width: 100px;
+}
+
+.changecolorlink {
+	color: yellow;
+}
+
+/* Text Modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.textare {
+	color: red;
+}
